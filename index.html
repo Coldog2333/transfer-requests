@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>换乘助手</title>
+</head>
+<body align="center">
+    欢迎使用换乘助手
+    <form action="advise" method="POST" align="center">
+        出发站: <input type="radio" checked="checked" name="From_station" value="广州南"> 广州南
+                <input type="radio" checked="checked" name="From_station" value="端州"> 端州
+                <input type="radio" checked="checked" name="From_station" value="肇庆"> 肇庆 <br>
+        到达站: <input type="radio" checked="checked" name="To_station" value="肇庆"> 肇庆
+                <input type="radio" checked="checked" name="To_station" value="端州"> 端州
+                <input type="radio" checked="checked" name="To_station" value="广州南"> 广州南<br>
+        日期:   <input type="date" name="Date"> <br>
+        不早于此时间出发的车次: <input type="text" name="nearly"> <br>
+        不晚于此时间到达的车次: <input type="text" name="nlate"> <br>
+        <input type="submit" value="提交">
+    </form>
+</body>
+</html>
