@@ -30,8 +30,8 @@ python transfer.py --from 广州南 --to 端州 --date 2018-12-20 --nearly 12:00
 + **--from**: 出发站, 目前只支持['广州南', '肇庆', '端州'].
 + **--to**: 到达站, 目前只支持['广州南', '肇庆', '端州'].
 + **--date**: 日期, 格式为'yyyy-mm-rr'.
-+ **--nearly** [optional]: 筛选不早于此时间的车次, 格式为'hh-mm'.
-+ **--nlate** [optional]: 筛选不晚于此时间的车次, 格式为'hh-mm'.
++ **--nearly** [optional]: 筛选不早于此时间的车次, 格式为'hh:mm'.
++ **--nlate** [optional]: 筛选不晚于此时间的车次, 格式为'hh:mm'.
 
 #### Output
 
@@ -41,7 +41,7 @@ python transfer.py --from 广州南 --to 端州 --date 2018-12-20 --nearly 12:00
 + 接驳时间：中转接驳时间.
 
 #### Update
-+ 2018/12/20 添加了web版本, 可以通过访问https://coldog.cn/transfer, 在网页上使用换乘指南. 
++ 2018/12/20 添加了web版本, 可以通过访问https://coldog.cn/transfer/index.html, 在网页上使用换乘助手. 
 使得自己不必用PC而只用手机就可以使用这个程序.
 
 ## TODO
